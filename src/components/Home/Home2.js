@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 
-import About from "../About/About";
-import Projects from "../Projects/Projects";
 
 function Home2() {
   return (
