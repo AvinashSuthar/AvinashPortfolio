@@ -5,7 +5,10 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
-
+import {
+  BrowserRouter as Router,
+  
+} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
@@ -24,7 +27,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -37,8 +40,7 @@ function App() {
         <FindMe/>
         {/* <Footer /> */}
       </div>
-    </>
-    
+    </Router>
   );
 }
 
