@@ -4,6 +4,9 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import FindMe from "../Findme/FindMe";
 
 function Home() {
   return (
@@ -42,7 +45,8 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-      
+       
+
     </section>
   );
 }

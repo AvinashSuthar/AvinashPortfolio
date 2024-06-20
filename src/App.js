@@ -14,6 +14,8 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FindMe from "./components/Findme/FindMe";
+import ResumeNew from "./components/Resume/ResumeNew";
+import Particle from "./components/Particle";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -31,13 +33,15 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
+        <Particle />
+
         {/* <ScrollToTop /> */}
         <Home />
         
         <About />
         <Projects />
         <Resume />
-        <FindMe/>
+        <FindMe/> 
         {/* <Footer /> */}
       </div>
     </Router>

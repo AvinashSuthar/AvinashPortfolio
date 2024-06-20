@@ -10,7 +10,7 @@ import wanderlust from "../../Assets/Projects/wanderlust.png";
 function Projects() {
   return (
     <Container fluid className="project-section" id="projects">
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
