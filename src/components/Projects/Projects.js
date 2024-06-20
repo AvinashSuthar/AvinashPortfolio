@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import spotifyClone from "../../Assets/Projects/spotifyClone.png";
 import forFoody from "../../Assets/Projects/forFoody.png";
 import personal from "../../Assets/Projects/person.png";

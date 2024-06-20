@@ -14,7 +14,6 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FindMe from "./components/Findme/FindMe";
-import ResumeNew from "./components/Resume/ResumeNew";
 import Particle from "./components/Particle";
 
 function App() {
