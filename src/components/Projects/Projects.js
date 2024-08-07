@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import spotifyClone from "../../Assets/Projects/spotifyClone.png";
 import forFoody from "../../Assets/Projects/forFoody.png";
 import personal from "../../Assets/Projects/person.png";
+import chatapp from "../../Assets/Projects/chatapp.png";
 import wanderlust from "../../Assets/Projects/wanderlust.png";
 
 function Projects() {
@@ -18,6 +19,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatapp}
+              isBlog={false}
+              title="Chat App"
+              description= "Developed a dynamic real-time chat application using the MERN stack, Socket, and Redux. This application allows users to engage in real-time conversations, create group chats, and enjoy features such as file sharing and photo uploading. With a robust and responsive design, it ensures seamless communication and collaboration among users. The integration of Socket ensures low-latency messaging, while Redux efficiently manages the application's state.
+
+"
+
+              ghLink="https://github.com/AvinashSuthar/ChatApplication"
+              demoLink="https://avinashchatapp.netlify.app/chat"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={personal}
@@ -48,7 +62,7 @@ The Personal Manager is a comprehensive web application built with the MERN stac
               title="For Foody"
               description="Foody is an interactive website that fetches data from the backend to provide users with a rich culinary experience. With powerful filtering capabilities, users can easily find and explore a wide variety of recipes, restaurants, and food items tailored to their preferences. The intuitive interface ensures a seamless browsing experience, making it simple to discover new and exciting culinary delights. Foody is designed to cater to food enthusiasts, helping them navigate through an extensive collection of gastronomic options effortlessly."
               ghLink="https://github.com/AvinashSuthar/foodFontend"
-              demoLink="https://forfoody.netlify.app/"              
+              demoLink="https://forfoody.netlify.app/"
             />
           </Col>
 
@@ -62,8 +76,6 @@ The Personal Manager is a comprehensive web application built with the MERN stac
               demoLink="https://avinashsuthar.github.io/spotify-clone/"
             />
           </Col>
-
-         
         </Row>
       </Container>
     </Container>
